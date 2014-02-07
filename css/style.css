@@ -46,8 +46,8 @@
 	top: 146px;
 	position: absolute;
 	background-repeat: no-repeat;
-	background-size:contain;
-	background-position:top;
+	background-size:cover;
+	background-position:center;
 } 
 #beautifulSound{
 	width: 570px;
@@ -56,16 +56,47 @@
 }
 #text1a{
 	height: 62px;
-	width: 570px;
-	font-size: 2em;
+	width: 571px;
+	font-size: 2.1em;
 	text-align: center;
 	margin: 83px auto 52px 0;
+	letter-spacing: 3px;
+	line-height: 150%;
 }
 #text1b{
 	font-size: 1em;
 	height: 80px;
 	width: 470px;
 	text-align: center;
-	font-size: 1em;
+	font-size: .9em;
 	margin: 0 auto;
+	line-height: 200%;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+#page2{
+	width: 100%;
+	height: 1048px;
+	position: absolute;
+	background: #f2ede6;
+	top: 1194px;
+}
+#ultima2{
+	height: 660px;
+	width: 560px;
+	position: absolute;
+	left: 129px;
+	top: -82px;
+	background: white
+}
+#downArrow{
+	margin: 33px auto 0 auto;
+	width: 24px;
+	height: 13px;
+}
+#ultimaLogo{
+	position: relative;
+	margin: 105px auto 0 auto;
+	width: 120px;
+	height: 26px;
 }
