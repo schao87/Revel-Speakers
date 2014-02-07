@@ -1,0 +1,71 @@
+
+#container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	min-width: 480px;
+	font-family: gill sans;
+	font-weight: lighter;
+	margin: 0;
+	padding: 0;
+
+}
+#nav{
+	height: 146px;
+	width: 100%;
+	position: absolute;
+	/*background: blue;*/
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+}
+#revellogo{
+	margin: 33px auto 0 auto;
+	width: 97px;
+
+	
+}
+#navlinks{
+	top:40px;
+	right: 75px;
+	height: 19px;
+	width: 100px;
+	position: absolute;
+}
+.navlink{
+	float: left;
+	height: 19px;
+	width: 19px;
+	position: relative;
+	margin: 0 5px 0 5px;
+}
+#page1{
+	background-image: url('../img/livingroom.jpg');
+	width: 100%;
+	height: 1048px;
+	top: 146px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:top;
+} 
+#beautifulSound{
+	width: 570px;
+	height: 388px;
+	margin: 0 auto;
+}
+#text1a{
+	height: 62px;
+	width: 570px;
+	font-size: 2em;
+	text-align: center;
+	margin: 83px auto 52px 0;
+}
+#text1b{
+	font-size: 1em;
+	height: 80px;
+	width: 470px;
+	text-align: center;
+	font-size: 1em;
+	margin: 0 auto;
+}
