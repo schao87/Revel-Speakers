@@ -13,11 +13,12 @@
 #nav{
 	height: 146px;
 	width: 100%;
-	position: absolute;
-	/*background: blue;*/
+	position: relative;
+	float: left;
+	background: white;
 	margin: 0;
 	padding: 0;
-	z-index: 100;
+	z-index: 10000;
 }
 #revellogo{
 	margin: 33px auto 0 auto;
@@ -42,33 +43,34 @@
 #page1{
 	background-image: url('../img/livingroom.jpg');
 	width: 100%;
-	height: 1048px;
-	top: 146px;
-	position: absolute;
+	max-height: 1048px;
+	max-width: 1436px;
+	height: 100%;
+	position: relative;
+	float: left;
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center;
 } 
 #beautifulSound{
 	width: 570px;
-	height: 388px;
-	margin: 0 auto;
+	height: 194px;
+	margin: 83px auto 0 auto;
 }
 #text1a{
 	height: 62px;
 	width: 571px;
-	font-size: 2.1em;
+	font-size: 2em;
 	text-align: center;
-	margin: 83px auto 52px 0;
+	margin: 0px auto 52px auto;
 	letter-spacing: 3px;
 	line-height: 150%;
 }
 #text1b{
-	font-size: 1em;
+	font-size: .9em;
 	height: 80px;
 	width: 470px;
 	text-align: center;
-	font-size: .9em;
 	margin: 0 auto;
 	line-height: 200%;
 	letter-spacing: 1px;
@@ -76,27 +78,157 @@
 }
 #page2{
 	width: 100%;
-	height: 1048px;
-	position: absolute;
+	max-height: 1152px;
+	height: 100%;
+	position: relative;
+	float: left;
 	background: #f2ede6;
-	top: 1194px;
+	/*top: 1194px;*/
+}
+#page2Cont{
+	margin: 0 auto;
+	width:100%;
+	max-width: 1142px;
+	height: 597px;
+	/*height: 100%;*/
+	position: relative;
+	/*float: left;*/
 }
 #ultima2{
 	height: 660px;
-	width: 560px;
-	position: absolute;
-	left: 129px;
-	top: -82px;
-	background: white
+	width: 49%;
+	max-width: 560px;
+	position: relative;
+	float: left;
+	/*left: 130px;*/
+	bottom: 10.5%;
+	background: white;
 }
 #downArrow{
 	margin: 33px auto 0 auto;
 	width: 24px;
 	height: 13px;
 }
+#downArrow a img{
+	margin: 33px auto 0 auto;
+	width: 24px;
+	height: 13px;
+}
 #ultimaLogo{
-	position: relative;
 	margin: 105px auto 0 auto;
 	width: 120px;
 	height: 26px;
+}
+#text2a{
+	height: 62px;
+	width: 323px;
+	font-size: 2em;
+	text-align: center;
+	margin: 48px auto 0 auto;
+	letter-spacing: 3px;
+	line-height: 150%;
+}
+#text2b{
+	height: 62px;
+	width: 423px;
+	font-size: .9em;
+	text-align: center;
+	margin: 50px auto 0 auto;
+	letter-spacing: 3px;
+	line-height: 150%;
+}
+#learnRed{
+	width: 214px;
+	height: 20px;
+	background: #d1351b;
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 40px auto 0 auto;
+	padding: 15px 0 13px 0; 
+}
+#ultima2 a{
+	text-decoration: none;
+}
+.galleryTop{
+	width: 44.8%;
+	height: 46%;
+	margin: 2.5%;
+	float: left;
+}
+.galleryBottom{
+	width: 44.8%;
+	height: 46%;
+	margin: 2.5% 2.5% 0% 2.5%;
+	float: left;
+}
+#galleryCont img{
+	width: 100%;
+}
+#galleryCont{
+	height: 95.3%;
+	width: 51%;
+	position: relative;
+	float: left;
+	margin-top: 2.5%;
+}
+#speakerset{
+	width: 100%;
+	max-width: 1335px;
+	margin: 0 auto;
+	height: 100%%;
+	max-height: 492px;
+	position: relative;
+	/*float: left;*/
+	z-index: 1000;
+}
+#speakerset img{
+/*	margin: 0 auto;
+	max-width: 1335px;*/
+	width: 100%;
+}
+#page3{
+	width: 100%;
+	max-width: 1436px;
+	min-width: 480px;
+	height: 100%;
+	max-height: 1126px;
+	position: relative;
+	float: left;
+	background-image: url('../img/lincolnsedan.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#text3a{
+	height: 102px;
+	width: 614px;
+	font-size: 2em;
+	text-align: center;
+	margin: 121px auto 0 auto;
+	letter-spacing: 3px;
+	line-height: 150%;
+	z-index: 1000;
+}
+#learnClear{
+	width: 214px;
+	height: 20px;
+	border-color: #000000;
+	border: 2px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 40px auto 0 auto;
+	padding: 15px 0 13px 0;
+}
+#page3 a{
+	text-decoration: none;
+}
+footer{
+	max-height: 438px;
+	height: 100%;
+	max-width: 100px;
+	width: 100%;
+	position: relative;
+	float: left;
+	background: #ffffff;
 }
